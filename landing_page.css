@@ -39,13 +39,13 @@ a{
   margin-right: 100px;
 }
 .placeholder{
-  background-color: grey;
-  width: 400px;
+  background-color: rgba(187, 187, 187, 0.473);
+  width: 380px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 12px;
+  font-size: 11px;
 }
 .hero-text {
   margin-top: 0;
@@ -72,13 +72,31 @@ a{
   width: 400px;
   height: 150px;
 }
-.main-section {
-}
-.tracklist {
+.first-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 10px;
 }
 .album-songs {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
 }
-.album-cover {
+.subtext{
+  width: 100px;
+  font-size: 10px;
+  text-align: center;
+  color: rgb(97, 97, 97);
+  margin-top: 5px;
+}
+.boxes{
+  padding: 50px;
+  border-radius: 10px;
+  border: #3882F6 2px solid;
 }
 .lyrics {
 }
