@@ -72,17 +72,27 @@ a{
   width: 400px;
   height: 150px;
 }
+.main-section{
+  display: flex;
+  flex-direction: column;
+}
 .first-main{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 12px;
-  margin-top: 10px;
+  padding-bottom: 100px;
 }
 .album-songs {
   display: flex;
   gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.box-container{
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -94,21 +104,69 @@ a{
   margin-top: 5px;
 }
 .boxes{
-  padding: 50px;
+  padding: 60px;
   border-radius: 10px;
-  border: #3882F6 2px solid;
+  border: #3882F6 3px solid;
+}
+.quote{
+  padding: 50px;
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+}
+.quotes-inside{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 830px;
 }
 .lyrics {
+  font-size: 38px;
+  color: #1F2937;
+  font-weight: 300;
+  margin-bottom: 0;
+  font-style: italic;
 }
 .artist {
+  margin-top: 0;
+  align-self: flex-end;
+  font-weight: bold;
 }
-.call-to-action {
+.bottom-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px;
+}
+.bottom-section-inside{
+  display: flex;
+  background-color: #3882F6;
+  width: 800px;
+  justify-content: space-between;
+  padding: 15px 70px;
+  border-radius: 6px;
+  
 }
 .action {
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
 }
 .click {
+  margin-top: 3px;
+  color: white;
 }
 .sign-up-2 {
+  border: white 2px solid;
+  background-color: transparent;
+  color: white;
+  align-self: center;
+  padding: 5px 25px;
+  border-radius: 5px;
+}
+button:hover{
+  cursor: pointer;
 }
 .footer {
 }
